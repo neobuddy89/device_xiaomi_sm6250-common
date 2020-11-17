@@ -14,5 +14,5 @@ ro.incremental.enable=1
 # USAP
 persist.device_config.runtime_native.usap_pool_enabled=true
 
-# Spoof
-ro.build.fingerprint=google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+# Use Vulkan backend for Skia UI rendering
+debug.hwui.renderer=skiavk
